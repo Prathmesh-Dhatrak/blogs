@@ -1,7 +1,7 @@
 # So this is a series of blogs I'm starting regarding Frontend Development concepts.
 
 ### In each part, I will try to explain 5 Js concepts or common javascript questions.
-That could help me to understand and write about things and concepts in detail. <br />
+I am creating these blogs to understand and write about the concepts in detail. <br />
 So to start we will see some of the basic Js concepts.
 <br/>
 
