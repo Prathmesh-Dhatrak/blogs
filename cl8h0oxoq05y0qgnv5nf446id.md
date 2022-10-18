@@ -1,4 +1,4 @@
-## Getting Started with TypeScript
+# Getting Started with TypeScript
 
 ## What is TypeScript?
 Microsoft developed the well-known open-source language known as TypeScript. A superset of JavaScript gives the language type safety and static typing. Because TypeScript compiles to JavaScript, it can be used in any JavaScript-enabled environment, including the browser, Node and Deno.
@@ -107,9 +107,12 @@ app.ts:3:23 - error TS2345: Argument of type 'string' is not assignable to param
                         ~~~
 Found 1 error.
 ``` 
-The TypeScript compiler will throw an error, letting you know that the parameter x is of type number, and that the argument "5" is not of type number.
+The TypeScript compiler will throw an error, letting you know that the parameter x is of type number and that the argument "5" is not of type number.
 
-Because TypeScript caught the issue at compile time, we can fix the issue by changing input to square to a number, saving us from a potential runtime error.
+Because TypeScript caught the issue at compile time, we can fix the issue by changing the input from a square to a number, saving us from a potential runtime error.
+
+That's it from my side. I hope this was helpful!
+let's connect on [Github](https://github.com/Prathmesh-Dhatrak) or [LinkedIn](https://www.linkedin.com/in/prathmesh-dhatrak).
 
 
 
