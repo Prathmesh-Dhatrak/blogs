@@ -1,4 +1,4 @@
-## What We Can Do To Lazy Load React Components?
+# What We Can Do To Lazy Load React Components?
 
 ## What is lazy loading?
 Your website should render pages as rapidly as feasible when a visitor visits. Only the topmost part of the page would be visible to the user. Imagine that the page's lower portion contains numerous images. The user will acquire unnecessary data and the website will appear to be of becoming slow if you download all the pictures on the first page.
@@ -46,3 +46,6 @@ So when the component is 100 pixels away from the viewport, it is loaded. Since 
 Other attributes, including style, resize events, and placeholders, can be set. To learn more, visit the official documents.
 
 Happy loading, lazy in React!
+
+That's it from my side. I hope this was helpful!
+let's connect on [Github](https://github.com/Prathmesh-Dhatrak) or [LinkedIn](https://www.linkedin.com/in/prathmesh-dhatrak).
