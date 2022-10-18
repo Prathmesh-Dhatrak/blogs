@@ -39,5 +39,9 @@ Code errors that would otherwise have been ignored or would have failed silently
 Key benefits of strict mode
 - Makes debugging easier
 - Prevents accidental globals
-- Prohibits the use of same property names twice.
+- Prohibits the use of the same property names twice.
 - Throws error on invalid usage of delete
+
+That's it from my side. I hope this was helpful!
+let's connect on [Github](https://github.com/Prathmesh-Dhatrak) or [LinkedIn](https://www.linkedin.com/in/prathmesh-dhatrak).
+
