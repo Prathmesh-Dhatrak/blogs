@@ -45,5 +45,8 @@ Unlike most other languages, JavaScript’s object system is based on prototypes
 **Class Inheritance**: instances inherit from classes (like a blueprint - a description of the class), and create sub-class relationships hierarchy. Instances are typically instantiated via constructor functions with the ```new``` keyword. Class inheritance may or may not use the class keyword from ES6. <br>
 **Prototypal Inheritance**: instances inherit directly from other objects. Instances are typically instantiated via factory functions or ```Object.create()```. Instances may be composed of many different objects, allowing for easy selective inheritance.
 
+That's it from my side. I hope this was helpful!
+let's connect on [Github](https://github.com/Prathmesh-Dhatrak) or [LinkedIn](https://www.linkedin.com/in/prathmesh-dhatrak).
+
 
 
