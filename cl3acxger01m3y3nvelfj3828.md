@@ -1,4 +1,4 @@
-## Understanding webpack and different Module Bundlers
+# Understanding webpack and different Module Bundlers
 
 So when I started learning react js framework. I simply started with CRA and that's why never understood the need for Module-Bundler like webpack.<br/>
 So as a beginner I always thought to Build a website we only need three things that is HTML, CSS, and JavaScript. <br/><br/>
@@ -64,3 +64,6 @@ module.exports = function(_env, argv) {
 };
 ``` 
 The above configuration works fine for plain JavaScript files. But when using Webpack and React, we will need to perform additional transformations before shipping code to our users.
+
+That's it from my side. I hope this was helpful!
+let's connect on [Github](https://github.com/Prathmesh-Dhatrak) or [LinkedIn](https://www.linkedin.com/in/prathmesh-dhatrak).
