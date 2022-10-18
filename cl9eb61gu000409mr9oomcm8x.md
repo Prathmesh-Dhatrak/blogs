@@ -1,9 +1,9 @@
 # Understanding React Class-Based Component 
 and Is it worth learning?
 
-If You are someone like me who started learning React after 2018-19 then probably you have learned functional components in detail and not gotten a chance to learn or not have worked on Class-Based Components.
+If you are someone like me who started learning React after 2018-19 then probably you have learned functional components in detail and not gotten a chance to learn or not have worked on Class-Based Components in depth.
 
-And this is just because most of the new-age React tutorial series or Courses will go in-depth about Functional components, and React Hooks and show how you can solve each and every problem regarding component states with Hooks rather than using Class-Based Components LifeCycle Methods.
+And this is just because most of the new-age React tutorial series or Courses will go in-depth about Functional components, React Hooks and show how you can solve each and every problem regarding component states with Hooks rather than using Class-Based Components and its LifeCycle Methods.
 
 And this is probably true we all know the advantages of functional components over Class-Based Components 
 
@@ -13,11 +13,10 @@ Like-:
 - Hooks make code cleaner and easy to read and test.
 - Hooks don’t need the ```this``` to bind the functions for the click events, and also access values in the component or global states.
 
-But 80%-90% of companies (for which you are going to do or are doing the job) is using Class-Based Components and most certainly they will be in the phases of upgradation.
-So more and more companies will upgrade from Class-Based Components to Functional Components
-but to be able to accomplish that we need to have a good understanding of Class-Based Components and their life-cycle methods.
+But 70% to 80% of companies (for which you are going to do the job) were using Class-Based Components and most certainly they will be upgradation the code in the future but to be able to accomplish that we need to have a good understanding of Class-Based Components and their life-cycle methods.
 
-So that's why I'm writing this blog and trying to understand Class-Based Components and to do this we will try to create a simple counting increment decrement app.
+So that's why I'm writing this blog and trying to understand Class-Based Components.
+And to do this we will try to create a simple count increment decrement app in react.
 
 ### Create the class-based component
 
@@ -111,4 +110,4 @@ Now this will work you can just call the CounterClass in your App.js and see the
 That's it from my side, I tried sharing everything I could.
 I hope this was helpful!
 
-let's connect on Twitter.      
+let's connect on [Github](https://github.com/Prathmesh-Dhatrak) or [LinkedIn](https://www.linkedin.com/in/prathmesh-dhatrak).
