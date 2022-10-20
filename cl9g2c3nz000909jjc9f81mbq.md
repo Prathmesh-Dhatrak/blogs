@@ -21,7 +21,7 @@ First, install the package
 ```
 npm install lodash.debounce
 ``` 
-Then Import it in your page
+Then Import it to your page component
 
 ```
 import debounce from 'lodash.debounce';
@@ -38,12 +38,45 @@ and then use it with the input element by passing callback_function and delay ti
   onKeyDown={onSearchSubmit}
 />
 ```
+This is fine can't we create our own Debounce Function to do this same task? So we will try to build a custom debounce function so that there is no need of installing any package.
+
+### Developing a custom debounce function.
+
+Our Debounce Function will accept two arguments: the function that needs to be called when there is a delay and the duration of the delay at which the function needs to be called.
+```
+const customDebounceFunction = (function, delayTimeInMilliseconds) => {
+    return () => {
+      setTimeout(() => {
+        function()
+      }, delayTimeInMilliseconds)
+    }
+}
+``` 
+And now to pass the input from the (``this``) current target element to the delayed function we need to do some changes to the function.
+```
+const customDebounceFunction = (function, delayTimeInMilliseconds) => {
+    let timer;
+    return () => {
+     let self = this;
+      let args= arguments;
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        function.apply(self, args)
+      }, delayTimeInMilliseconds)
+    }
+}
+``` 
+Now just call the customDebounceFunction using **useCallback** hook so that we don't lose the reference to the older customDebounceFunction and its values.
+
+```
+const debounceValue = useCallback(customDebounceFunction((nextValue) => onSearchInputChange(nextValue), 1000), [])
+```
+
 So this is how you can handle and restrict multiple API calls in React.
 That's it from my side, I tried sharing everything I could.
 I hope this was helpful!
 
 let's connect on [Github](https://github.com/Prathmesh-Dhatrak) or [LinkedIn](https://www.linkedin.com/in/prathmesh-dhatrak).
-
 
 
 
