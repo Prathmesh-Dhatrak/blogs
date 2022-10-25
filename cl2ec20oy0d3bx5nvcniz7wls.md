@@ -1,4 +1,4 @@
-## Connect React JS to Firebase
+# Connect React JS to Firebase
 
 What is Firebase?
 
